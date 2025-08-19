@@ -113,7 +113,7 @@
 After saving changes, reboot and monitor GPU performance and stability.
 
 **References:**  
-- [Motherboard User Manual 💻🖱️](https://github.com/AutonomousOfficial/8xGPUs/blob/main/Docs/UM_motherboard.pdf)  
+- [Motherboard User Manual 💻🖱️](Docs/UM_motherboard.pdf)  
 - [BMC Documents 🤖](Docs/UM_BMC.pdf)
 
 <p align="center">
