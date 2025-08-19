@@ -132,7 +132,7 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
             <img src="Photos/8GPU/Testing/Nvtop.png" width="700"><br>
         </td>
         <td align="center">
-            <img src="Photos/8GPU/Assembling/40.png" width="400"><br>
+            <img src="Photos/8GPU/Assembly/40.png" width="400"><br>
         </td>
     </tr>
 </table>

@@ -15,6 +15,8 @@
             <img src="../Photos/8GPU/Preparing/EE/MCIO_cable.jpg" width="400"><br>
             <b>13. Fan</b><br>
             <img src="../Photos/8GPU/Preparing/EE/fan.jpg" width="400"><br>
+            <b>15. Motherboard power cable</b><br>
+            <img src="../Photos/8GPU/Preparing/EE/motherboard_cable.jpg" width="400"><br>
         </td>
         <td valign="top" align="center" width="50%">
             <b>2. PSU board</b><br>
@@ -31,6 +33,8 @@
             <img src="../Photos/8GPU/Preparing/EE/GPU.png" width="400"><br>
             <b>14. Hub fan</b><br>
             <img src="../Photos/8GPU/Preparing/EE/hub_fan.jpg" width="400"><br>
+            <b>16. GPU power cable</b><br>
+            <img src="../Photos/8GPU/Preparing/EE/GPU_cable_power.jpg" width="400"><br>
         </td>
     </tr>
 </table>
