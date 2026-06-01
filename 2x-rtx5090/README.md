@@ -52,7 +52,7 @@
             </i></b>
         </td>
         <td align="center" width="45%">
-            <img src="Photos/2GPU/Introduction/introduction.png" width="350"  style="border-radius: 8px;">
+            <img src="photos/2gpu/introduction/introduction.png" width="350"  style="border-radius: 8px;">
         </td>
     </tr>
 </table>
@@ -122,7 +122,7 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 <table>
         <td align="center">
-            <img src="Photos/2GPU/Testing/nvidia-smi.png" width="700"><br>
+            <img src="photos/2gpu/testing/nvidia-smi.png" width="700"><br>
         </td>
 </table>
 

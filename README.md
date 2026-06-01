@@ -152,10 +152,24 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 # 🖥️ Other Builds &ensp; [🔝](#-table-of-contents)
 
-| Build | GPUs | Platform | Guide |
-|---|---|---|---|
-| 2× RTX 5090 | 2× NVIDIA RTX 5090 | Intel Xeon W5 + ASUS W790 | [2x-rtx5090/README.md](2x-rtx5090/README.md) |
-| 4× RTX PRO 6000 | 4× Leadtek RTX PRO 6000 Blackwell | AMD EPYC 9124 + ASRock Rack | [4x-rtx-pro-6000/README.md](4x-rtx-pro-6000/README.md) |
+<table>
+    <tr>
+        <td align="center" width="50%">
+            <a href="2x-rtx5090/README.md">
+                <img src="2x-rtx5090/photos/2gpu/introduction/introduction.png" width="420" style="border-radius: 8px;">
+            </a>
+            <br><b>2× RTX 5090</b> — Intel Xeon W5 + ASUS W790<br>
+            <a href="2x-rtx5090/README.md">View Build Guide →</a>
+        </td>
+        <td align="center" width="50%">
+            <a href="4x-rtx-pro-6000/README.md">
+                <img src="4x-rtx-pro-6000/photos/4gpu/introduction/rack1.jpg" width="420" style="border-radius: 8px;">
+            </a>
+            <br><b>4× RTX PRO 6000 Blackwell</b> — AMD EPYC 9124 + ASRock Rack<br>
+            <a href="4x-rtx-pro-6000/README.md">View Build Guide →</a>
+        </td>
+    </tr>
+</table>
 
 ---
 
