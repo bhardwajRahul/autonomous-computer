@@ -1,14 +1,10 @@
 <p align="center">
-    <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1800&pause=600&color=11F732&background=000000&width=1000&height=110&lines=Welcome+-+where+8%C3%974090Ds+become+your+new+roommate." alt="Typing SVG" />
-    </a>
-</p>
-
-<p align="center">
     <img src="photos/8gpu/preparing/ee/inside-8card.jpg" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
 </p>
 
 <div align="center">
+
+# Autonomous AI Server — 8× GPU Build Guide
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
 <img src="https://img.shields.io/github/stars/autonomous-ai/autonomous-computer" alt="GitHub stars">
@@ -31,19 +27,19 @@
 
 ---
 
-## 📚 Table of Contents
-- [Introduction](#-🏁-introduction)
-- [Preparation](#-🛠️-preparation)
-- [Assembly](#-🤖-assembly)
-- [Setup](#-⚙️-setup)
-- [Testing](#-🧪-testing)
-- [BOM](#-📦-bill-of-materials-bom)
-- [Other Builds](#-🖥️-other-builds)
-- [License](#-📝-license)
+## Table of Contents
+- [Introduction](#introduction)
+- [Preparation](#preparation)
+- [Assembly](#assembly)
+- [Setup](#setup)
+- [Testing](#testing)
+- [Bill of Materials](#bill-of-materials)
+- [Other Builds](#other-builds)
+- [License](#license)
 
 ---
 
-# 🏁 Introduction &ensp; [🔝](#-table-of-contents)
+## Introduction
 
 <table>
     <tr>
@@ -60,70 +56,71 @@
 
 ---
 
-# 🛠️ Preparation &ensp; [🔝](#-table-of-contents)
+## Preparation
 
-### 1. [**Electronic & Electrical**](docs/Prepare_EE.md)
+### 1. [Electronic & Electrical](docs/Prepare_EE.md)
 
-### 2. [**Mechanical & Housing**](docs/Prepare_ME.md)
+### 2. [Mechanical & Housing](docs/Prepare_ME.md)
 
 ---
 
-# 🤖 Assembly &ensp; [🔝](#-table-of-contents)
+## Assembly
+
 [See detailed steps](docs/Assembly.md)
 
 ---
 
-# ⚙️ Setup &ensp; [🔝](#-table-of-contents)
+## Setup
+
 ### BIOS Optimization for GPU Performance
 
 > **Tip:** The default BIOS settings may not deliver optimal performance for multi-GPU workloads. Adjust these parameters for best results:
 
 - **PCIe Settings** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    🚨📢🔔⚠️
     Set all PCIe slots to the highest supported speed (Gen4/Gen5) and configure bifurcation for your GPUs.<br>
     ```
     Advanced -> Chipset Configuration -> PCIE link width -> set MCIO2/1, MCIO4/3, MCIO6/5, MCIO8/7, MCIO12/11, MCIO14/13, MCIO16/15, MCIO18/17 to x16
     ```
 
 - **Above 4G Decoding** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    🚨📢🔔⚠️
     Enable "Above 4G Decoding" to address large GPU memory.<br>
     ```
     May be enabled by default
     ```
 
 - **Resizable BAR** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    🚨📢🔔⚠️
     Activate "Resizable BAR" for improved CPU-GPU data transfer.<br>
     ```
     Advanced -> PCI Subsystems Settings -> Enable Re-size BAR support
     ```
 
-- **Power Management**  
+- **Power Management**<br>
     Disable unnecessary power-saving features (C-states, ASPM) that may throttle GPU performance.<br>
     `Optional`
 
-- **Memory Configuration**  
+- **Memory Configuration**<br>
     Set RAM to rated speed and enable XMP/DOCP profiles for max bandwidth.<br>
     `Optional`
 
-- **Fan and Thermal Controls**  
+- **Fan and Thermal Controls**<br>
     Adjust fan curves and thermal limits for optimal cooling.<br>
     `Optional`
 
 After saving changes, reboot and monitor GPU performance and stability.
 
-**References:**  
-- [Motherboard User Manual 💻🖱️](docs/UM_motherboard.pdf)  
-- [BMC Documents 🤖](docs/UM_BMC.pdf)
+**References:**
+- [Motherboard User Manual](docs/UM_motherboard.pdf)
+- [BMC Documents](docs/UM_BMC.pdf)
 
 <p align="center">
-    <video src="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870" controls width="700"></video>
+    <video src="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870" controls width="700">
+        <a href="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870">How-to-set-up-BIOS.mp4</a>
+    </video>
 </p>
 
 ---
 
-# 🧪 Testing &ensp; [🔝](#-table-of-contents)
+## Testing
 
 Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, and check with `nvtop`. Once confirmed, install your OS and start your AI work.
 
@@ -139,18 +136,20 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 </table>
 
 <p align="center">
-    <video src="https://github.com/user-attachments/assets/71afbc5c-ae69-410e-868a-a52b915b1e7a" controls width="700"></video>
+    <video src="https://github.com/user-attachments/assets/71afbc5c-ae69-410e-868a-a52b915b1e7a" controls width="700">
+        <a href="https://github.com/user-attachments/assets/71afbc5c-ae69-410e-868a-a52b915b1e7a">Booting.mp4</a>
+    </video>
 </p>
 
 ---
 
-# 📦 Bill of Materials (BOM) &ensp; [🔝](#-table-of-contents)
+## Bill of Materials
 
-- [𝄜 Bill of Materials](bom/BOM.md)
+- [Bill of Materials](bom/BOM.md)
 
 ---
 
-# 🖥️ Other Builds &ensp; [🔝](#-table-of-contents)
+## Other Builds
 
 <table>
     <tr>
@@ -173,12 +172,6 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 ---
 
-# 📝 License &ensp; [🔝](#-table-of-contents)
+## License
 
 This project is open source under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1800&pause=1000&color=11F732&width=840&lines=If+this+helped%2C+toss+us+a+%E2%AD%90.+Got+questions%3F+Email+brody%40autonomous.ai" alt="Typing SVG" /></a>
-</p>
