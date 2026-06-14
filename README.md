@@ -1,10 +1,6 @@
 # Autonomous Computer: Build Your Own Personal AI Computer
 
-
-
-https://github.com/user-attachments/assets/551abf33-336d-4426-9765-87c5528e53cb
-
-
+https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 
 
