@@ -32,7 +32,7 @@ Save, reboot, and confirm stability.
 
 ## GPU testing
 
-<img src="media/gpu-testing.webp" alt="nvtop showing every GPU enumerated, next to the 8× build">
+<img alt="nvtop showing every GPU enumerated, next to the 8× build" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
 Verify the hardware before you rely on it.
 
