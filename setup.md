@@ -1,6 +1,6 @@
-# Setup
+# BIOS tuning and GPU testing
 
-Getting the machine ready: BIOS tuning for multi-GPU, NVIDIA drivers, and your OS. Exact BIOS menu paths vary by motherboard — check your build's `docs/` and board manual for specifics.
+Getting the machine ready and proving it works: BIOS tuning for multi-GPU, NVIDIA drivers, and hardware verification. Exact BIOS menu paths vary by motherboard — check your build's `docs/` and board manual for specifics.
 
 ## BIOS optimization for GPU performance
 
@@ -28,7 +28,26 @@ Save, reboot, and confirm stability.
 
 - Install Linux (Ubuntu LTS is a safe default) or your OS of choice.
 - Install the current NVIDIA driver and CUDA toolkit for your cards.
-- Confirm the OS sees every GPU before going further — see [Testing](testing.md).
+- Confirm the OS sees every GPU before going further — next section.
+
+## GPU testing
+
+Verify the hardware before you rely on it.
+
+- **Fast hardware check:** boot **WinPE from USB** to confirm all cards enumerate, or
+- **Linux check:** with drivers installed, run:
+  ```bash
+  nvidia-smi      # every GPU listed, correct VRAM, expected power/temp
+  nvtop           # live per-GPU utilization and memory
+  ```
+
+Confirm:
+- [ ] All GPUs appear in `nvidia-smi` (count matches your build: 2 / 4 / 8).
+- [ ] Each card reports its full VRAM.
+- [ ] PCIe link width/speed is what you set in BIOS (no cards dropped to x1/x4).
+- [ ] Temperatures and power draw are sane at idle and under load.
+
+Per-build testing screenshots live in each build's `photos/.../testing/`.
 
 ## Board manuals
 

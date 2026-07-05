@@ -16,11 +16,11 @@ Four RTX PRO 6000 Blackwell GPUs on an AMD EPYC platform in an off-the-shelf 5U 
 2. **Housing** — the 5U chassis kit ships complete (case, cable harness, power board); the [housing checklist](docs/prepare-me.md) covers unboxing and staging.
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md).
 4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md).
-5. **BIOS, drivers, testing** — the shared [setup](../setup.md) and [testing](../testing.md) guides. Board-specific notes below.
+5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
 
 ## BIOS notes for this board
 
-The TURIN2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (see the general list in [setup](../setup.md)):
+The TURIN2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (the general list is in [the setup guide](../setup.md)):
 
 ```
 Advanced -> Chipset Configuration -> PCIE link width
@@ -32,7 +32,7 @@ Above 4G Decoding is typically enabled by default on this platform — verify it
 
 ## Testing
 
-All four cards detected, full VRAM, full PCIe width — the checklist is in [testing](../testing.md).
+All four cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 ## Discussion
 

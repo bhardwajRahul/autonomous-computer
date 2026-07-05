@@ -19,7 +19,8 @@ We built the whole stack, hardware and software, designed together. Then we open
 2. **Source the parts** from that build's Bill of Materials — [2×](2x/bom/bom.md) · [4×](4x/bom/bom.md) · [8×](8x/bom/bom.md).
 3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · 4× · [8×](8x/step_models).
 4. **Assemble** — follow the photo-by-photo assembly guide — [2×](2x/docs/assembly.md) · [4×](4x/docs/assembly.md) · [8×](8x/docs/assembly.md).
-5. **Software** — [BIOS setup](setup.md), [GPU testing](testing.md), and [Grid](https://github.com/autonomous-ai/autonomous-grid).
+5. **BIOS tuning and GPU testing** — [one guide](setup.md): the settings that matter, then prove every card runs at full width.
+6. **Serve your models** — any local AI framework, or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
 
 ## Hardware: Pick your build
 
@@ -52,9 +53,8 @@ At a glance:
 
 ## Software
 
-1. **[Setup](setup.md)** — BIOS tuning for multi-GPU, NVIDIA drivers, and your OS.
-2. **[Testing](testing.md)** — confirm every GPU is detected, linked at full PCIe width, and stable under load.
-3. **[Run Grid](https://github.com/autonomous-ai/autonomous-grid)** — Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model, on your local network or remotely.
+1. **[BIOS tuning and GPU testing](setup.md)** — multi-GPU BIOS settings, NVIDIA drivers, and confirming every GPU is detected, linked at full PCIe width, and stable under load.
+2. **[Run Grid](https://github.com/autonomous-ai/autonomous-grid)** — Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model, on your local network or remotely.
 
    ```bash
    curl -fsSL https://grid.autonomous.ai/install.sh | bash

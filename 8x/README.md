@@ -16,11 +16,11 @@ The largest build: eight GPUs on a dual-EPYC (Genoa) platform in a CNC-milled, a
 2. **Housing** — CNC the [STEP files](step_models) (STL versions in [stl-models](stl-models)), then sand-blast and anodize — the [housing guide](docs/prepare-me.md) shows the process.
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
 4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 39 steps from bare plates to a running machine.
-5. **BIOS, drivers, testing** — the shared [setup](../setup.md) and [testing](../testing.md) guides. Board-specific notes below.
+5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
 
 ## BIOS notes for this board
 
-The GENOA2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (see the general list in [setup](../setup.md)):
+The GENOA2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (the general list is in [the setup guide](../setup.md)):
 
 ```
 Advanced -> Chipset Configuration -> PCIE link width
@@ -34,7 +34,7 @@ Board references: [motherboard manual](docs/um-motherboard.pdf) · [BMC manual](
 
 ## Testing
 
-All eight cards detected, full VRAM, full PCIe width — the checklist is in [testing](../testing.md).
+All eight cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <table>
     <tr>

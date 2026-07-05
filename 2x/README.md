@@ -18,11 +18,11 @@ Two RTX 5090s on an Intel Xeon W platform, in a housing you print or CNC yoursel
 2. **Housing** — print the [STL files](stl-models) or CNC the [STEP files](step_models).
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
 4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
-5. **BIOS, drivers, testing** — the shared [setup](../setup.md) and [testing](../testing.md) guides. Board-specific notes below.
+5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
 
 ## BIOS notes for this board
 
-The two settings that matter on the W790 (see the general list in [setup](../setup.md)):
+The two settings that matter on the W790 (the general list is in [the setup guide](../setup.md)):
 
 ```
 Advanced -> PCI Subsystems Settings -> Enable Above 4G Decoding
@@ -33,7 +33,7 @@ Board references: [motherboard manual](docs/um-motherboard.pdf) · [BIOS manual]
 
 ## Testing
 
-Both cards detected, full VRAM, full PCIe width — the checklist is in [testing](../testing.md).
+Both cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <p align="center">
     <img src="photos/2gpu/testing/nvidia-smi.png" width="700">
