@@ -1,10 +1,8 @@
-# 2× NVIDIA RTX 5090 — the Home build
-
-<div align="center"><a href="../README.md">← All builds</a></div>
+# 2× NVIDIA RTX 5090
 
 <img src="photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame">
 
-The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform, in a housing you print or CNC yourself. Desk-sized, runs on a normal wall outlet, and enough VRAM for Llama, Qwen, and DeepSeek with quantization — run OpenClaw, Hermes Agent, or your own LangChain stack with zero API spend.
+The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform. Desk-sized, runs on a normal wall outlet, and enough VRAM for Llama, Qwen, and DeepSeek with quantization — run OpenClaw, Hermes Agent, or your own LangChain stack with zero API spend.
 
 - **2× NVIDIA RTX 5090** — 64 GB VRAM · 3,584 GB/s · 419 FP32 TFLOPS
 - **Intel Xeon W5** (ASUS W790 ACE) · 96 GB RAM · 1 TB NVMe
@@ -15,10 +13,11 @@ The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform,
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
-2. **Housing** — print the [STL files](stl-models) or CNC the [STEP files](step_models).
+2. **Housing** — the [STL files](stl-models) and the [STEP files](step_models).
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
 4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI. Details below.
 
 <table>
 <tr>
@@ -49,6 +48,16 @@ Both cards detected, full VRAM, full PCIe width — the checklist is in [the set
 <p align="center">
     <img src="photos/2gpu/testing/nvidia-smi.png" width="700" alt="nvidia-smi with both RTX 5090s detected">
 </p>
+
+## Serve your models
+
+The rig runs, now put it to work. The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI: it pools your machines into one local AI network. Or run any local AI engine — vLLM, Ollama, llama.cpp.
+
+```bash
+curl -fsSL https://grid.autonomous.ai/install.sh | bash
+```
+
+<img width="2200" height="1452" alt="Grid — your machines pooled into one local AI network" src="https://github.com/user-attachments/assets/0ad98393-248a-40bd-9877-e6f0847c7b0e" />
 
 ## The finished machine
 
