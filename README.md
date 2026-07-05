@@ -12,7 +12,7 @@ The Personal AI Computer is that machine. The models are good, the GPUs are affo
 
 ## The end-to-end open-source local AI stack
 
-The first personal computers shipped with schematics in the box — and the people who could open the machine built the industry. That's the tradition this repo stands in. Open software on closed hardware is half an answer; a machine is only yours down to the level you can rebuild it. So we open-sourced both halves:
+We open-source the whole stack — the hardware and the software:
 
 - **Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
@@ -85,26 +85,6 @@ The first personal computers shipped with schematics in the box — and the peop
 
 **[See the 4× 5090 →](4x-5090/README.md)**
 
-## 4× NVIDIA RTX PRO 6000 — Workstation
-
-4× RTX PRO 6000 Blackwell in a 5U chassis. The full-precision machine: fine-tune and serve the biggest open models without quantizing.
-
-| | |
-|:--|:--|
-| GPU | 4× NVIDIA RTX PRO 6000 Blackwell (96 GB each) |
-| VRAM | 384 GB |
-| CPU | AMD EPYC 9124 (ASRock Rack TURIN2D24G-2L+, dual SP5) |
-| System RAM | 384 GB DDR5 ECC RDIMM (8× 48 GB) |
-| Storage | 1 TB NVMe (Samsung 990) |
-| PCIe | Gen 5 ×16 per GPU, over MCIO |
-| Networking | BMC (IPMI) |
-| Power | 3× 2,000 W CRPS |
-| Size | 5U rack chassis, off the shelf — no CNC work |
-
-<a href="4x-6000/README.md"><img src="4x-6000/build-4x.jpg" alt="The 4× 6000 build — four RTX PRO 6000 Blackwell in the 5U chassis"></a>
-
-**[Build the 4× 6000 →](4x-6000/README.md)**
-
 ## 8× NVIDIA RTX 5090 — On-prem business
 
 8× RTX 5090 on dual EPYC. A local inference box for teams shipping with open models. Develop, serve, fine-tune — the work that should never leave your floor.
@@ -138,6 +118,26 @@ The first personal computers shipped with schematics in the box — and the peop
 <img src="8x-5090/photos/gallery/finished.webp" alt="The finished 8× 5090">
 
 **[Build the 8× 5090 →](8x-5090/README.md)**
+
+## 4× NVIDIA RTX PRO 6000 — Workstation
+
+4× RTX PRO 6000 Blackwell in a 5U chassis. The full-precision machine: fine-tune and serve the biggest open models without quantizing.
+
+| | |
+|:--|:--|
+| GPU | 4× NVIDIA RTX PRO 6000 Blackwell (96 GB each) |
+| VRAM | 384 GB |
+| CPU | AMD EPYC 9124 (ASRock Rack TURIN2D24G-2L+, dual SP5) |
+| System RAM | 384 GB DDR5 ECC RDIMM (8× 48 GB) |
+| Storage | 1 TB NVMe (Samsung 990) |
+| PCIe | Gen 5 ×16 per GPU, over MCIO |
+| Networking | BMC (IPMI) |
+| Power | 3× 2,000 W CRPS |
+| Size | 5U rack chassis, off the shelf — no CNC work |
+
+<a href="4x-6000/README.md"><img src="4x-6000/build-4x.jpg" alt="The 4× 6000 build — four RTX PRO 6000 Blackwell in the 5U chassis"></a>
+
+**[Build the 4× 6000 →](4x-6000/README.md)**
 
 ## Software
 
