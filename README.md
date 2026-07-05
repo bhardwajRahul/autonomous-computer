@@ -1,8 +1,14 @@
 # Build your own Personal AI Computer
 
-Last month made the case for us. The US government [switched off Fable 5 for most of a month](https://www.anthropic.com/news/fable-mythos-access) and [locked GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Alex Karp [told CNBC](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html) that frontier APIs absorb your IP — customers "want to know they own the means of production." And [Chamath's math](https://www.benzinga.com/markets/tech/26/06/53048494/chamath-palihapitiya-says-companies-are-overspending-on-ai-as-cheaper-models-rapidly-close-the-gap-burning-through-massive-budgets): a workload that costs ~$105K/month on GPT-5.5 Pro runs for ~$3–5K on open weights. Rented AI can be revoked, reads your secret sauce, and bills you forever. A machine in your own house can't, doesn't, and runs on electricity.
+Last month the US government [switched off Fable 5](https://www.anthropic.com/news/fable-mythos-access) for most of a month and [gated GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Rented intelligence can be revoked.
 
-This is the full open-source stack for local AI. **Hardware** — this repo: build guides in three sizes, every part, every bracket, every BIOS setting. **Software** — [Grid](https://github.com/autonomous-ai/autonomous-grid): pools your machines behind one OpenAI-compatible endpoint. **Build it once; own it for good.**
+Every prompt you send a frontier API carries your product, your process, your edge. [Karp said it](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html): own the means of production.
+
+And owning it got cheap. The workload that costs [~$105K/month on GPT-5.5 Pro runs for ~$3–5K on open weights](https://www.benzinga.com/markets/tech/26/06/53048494/chamath-palihapitiya-says-companies-are-overspending-on-ai-as-cheaper-models-rapidly-close-the-gap-burning-through-massive-budgets). On your own machine: electricity.
+
+That's why we open-sourced the whole stack. **Hardware** — this repo: three builds, every part, every bracket, every BIOS setting. **Software** — [Grid](https://github.com/autonomous-ai/autonomous-grid): your machines behind one OpenAI-compatible endpoint.
+
+**Build it once; own it for good.**
 
 https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
