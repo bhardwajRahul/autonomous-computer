@@ -43,7 +43,7 @@ Board references: [motherboard manual](docs/um-motherboard.pdf) · [BIOS manual]
 
 ## Testing
 
-Both cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+Make sure both cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <p align="center">
     <img src="photos/2gpu/testing/nvidia-smi.png" width="700" alt="nvidia-smi with both RTX 5090s detected">
