@@ -134,7 +134,7 @@ The workstation build. Fine-tune and serve the biggest open models at full preci
 
 1. **[BIOS tuning and GPU testing](setup.md)** — multi-GPU BIOS settings, NVIDIA drivers, and confirming every GPU is detected, linked at full PCIe width, and stable under load.
 
-   <a href="setup.md"><img src="media/gpu-testing.webp" alt="nvtop showing every GPU enumerated, next to the 8× build"></a>
+<img width="2560" height="1441" alt="gpu-testing" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
 2. **[Run Grid](https://github.com/autonomous-ai/autonomous-grid)** — Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model, on your local network or remotely.
 
@@ -142,7 +142,8 @@ The workstation build. Fine-tune and serve the biggest open models at full preci
    curl -fsSL https://grid.autonomous.ai/install.sh | bash
    ```
 
-   <a href="https://github.com/autonomous-ai/autonomous-grid"><img src="https://raw.githubusercontent.com/autonomous-ai/autonomous-grid/main/docs/home-grid.png" alt="Grid — every machine you own behind one endpoint"></a>
+<img width="2200" height="1452" alt="home-grid (1)" src="https://github.com/user-attachments/assets/0ad98393-248a-40bd-9877-e6f0847c7b0e" />
+
 
 ## Contributing
 
