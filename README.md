@@ -26,22 +26,57 @@ We built the whole stack, hardware and software, designed together. Then we open
 
 There's a build for every budget and use case. Each is a complete, self-contained guide: bill of materials, housing files, wiring, BIOS, and assembly photos.
 
+### 2× — Home
+
+2× RTX 5090. Enough for Llama, Qwen, and DeepSeek with quantization. Run OpenClaw, Hermes Agent, or your own LangChain stack locally.
+
+**64 GB VRAM · 192 GB RAM · 1600 W · print or CNC the housing yourself**
+
+<a href="2x/README.md"><img src="2x/photos/gallery/hero.webp" alt="The 2× build — two RTX 5090s on the open frame"></a>
+
 <table>
 <tr>
-<td align="center" width="33%">
-<a href="2x/README.md"><img src="2x/build-2x.jpg" alt="The 2× build" width="280"></a><br><br>
-<a href="2x/README.md"><b>2× — Home</b></a>
-</td>
-<td align="center" width="33%">
-<a href="4x/README.md"><img src="4x/build-4x.jpg" alt="The 4× build" width="280"></a><br><br>
-<a href="4x/README.md"><b>4× — Team</b></a>
-</td>
-<td align="center" width="33%">
-<a href="8x/README.md"><img src="8x/build-8x.jpg" alt="The 8× build" width="280"></a><br><br>
-<a href="8x/README.md"><b>8× — On-prem business</b></a>
-</td>
+<td width="50%"><img src="2x/photos/gallery/riser-frame.webp" alt="Mounting the PCIe 5.0 risers"></td>
+<td width="50%"><img src="2x/photos/gallery/fan-tray.webp" alt="The fan tray"></td>
+</tr>
+<tr>
+<td width="50%"><img src="2x/photos/gallery/side-panel.webp" alt="Closing the side panel"></td>
+<td width="50%"><img src="2x/photos/gallery/finished.webp" alt="The finished 2× on a desk"></td>
 </tr>
 </table>
+
+**[Build the 2× →](2x/README.md)**
+
+### 4× — Team
+
+4× RTX PRO 6000 Blackwell in a 5U chassis. Built for the larger open models — Kimi, MiniMax, GLM. No API bills. Low latency. Private data.
+
+**384 GB VRAM · 384 GB RAM · 3× 2000 W · off-the-shelf 5U chassis, no CNC work**
+
+<a href="4x/README.md"><img src="4x/build-4x.jpg" alt="The 4× build — four RTX PRO 6000 Blackwell in the 5U chassis"></a>
+
+**[Build the 4× →](4x/README.md)**
+
+### 8× — On-prem business
+
+8× RTX 4090 or 5090 on dual EPYC. A local inference box for teams shipping with open models. Develop, serve, fine-tune — the work that should never leave your floor.
+
+**192–256 GB VRAM · 8000 W · CNC-milled, anodized aluminum housing**
+
+<a href="8x/README.md"><img src="8x/photos/gallery/hero.webp" alt="The 8× build — eight GPUs in the anodized aluminum housing"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="8x/photos/gallery/parts-layout.webp" alt="Every part laid out before assembly"></td>
+<td width="50%"><img src="8x/photos/gallery/cnc-milling.webp" alt="CNC-milling the housing"></td>
+</tr>
+<tr>
+<td width="50%"><img src="8x/photos/gallery/gpu-install.webp" alt="Installing the GPUs"></td>
+<td width="50%"><img src="8x/photos/gallery/finished.webp" alt="The finished 8× on a desk"></td>
+</tr>
+</table>
+
+**[Build the 8× →](8x/README.md)**
 
 ## Software
 
