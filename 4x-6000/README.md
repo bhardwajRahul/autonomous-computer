@@ -13,7 +13,7 @@ The server build — rack-ready for on-prem and the data center: four RTX PRO 60
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
-2. **Housing** — the 5U chassis kit ships complete (case, cable harness, power board); the [housing checklist](docs/prepare-me.md) covers unboxing and staging.
+2. **Housing** — the [5U chassis kit](docs/prepare-me.md) ships complete.
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md).
 4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md).
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
