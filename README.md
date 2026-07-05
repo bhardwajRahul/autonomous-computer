@@ -1,12 +1,15 @@
 # Build your own Personal AI Computer
 
-Last month the US government [switched off Fable 5](https://www.anthropic.com/news/fable-mythos-access) for most of a month and [gated GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Rented intelligence can be revoked.
+**The future of AI is local.** Three reasons:
 
-Every prompt you send a frontier API carries your product, your process, your edge. [Karp said it](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html): own the means of production.
+1. **No one can switch you off.** Last month the US government [took Fable 5 offline](https://www.anthropic.com/news/fable-mythos-access) for most of a month and [gated GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Weights on your own disk can't be revoked.
+2. **Your edge stays yours.** Every prompt you send a frontier API carries your product, your process, your edge. [Karp said it](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html): own the means of production.
+3. **It's 20–30× cheaper.** The workload that costs [~$105K/month on GPT-5.5 Pro runs for ~$3–5K on open weights](https://www.benzinga.com/markets/tech/26/06/53048494/chamath-palihapitiya-says-companies-are-overspending-on-ai-as-cheaper-models-rapidly-close-the-gap-burning-through-massive-budgets). On your own machine: electricity.
 
-And owning it got cheap. The workload that costs [~$105K/month on GPT-5.5 Pro runs for ~$3–5K on open weights](https://www.benzinga.com/markets/tech/26/06/53048494/chamath-palihapitiya-says-companies-are-overspending-on-ai-as-cheaper-models-rapidly-close-the-gap-burning-through-massive-budgets). On your own machine: electricity.
+That's why we open-sourced the whole stack:
 
-That's why we open-sourced the whole stack. **Hardware** — this repo: three builds, every part, every bracket, every BIOS setting. **Software** — [Grid](https://github.com/autonomous-ai/autonomous-grid): your machines behind one OpenAI-compatible endpoint.
+- **Hardware — this repo.** Build your own Personal AI Computer in three sizes: every part, every bracket, every BIOS setting, every assembly photo.
+- **Software — [Grid](https://github.com/autonomous-ai/autonomous-grid).** Pools your machines behind one OpenAI-compatible endpoint and routes each request to the right model.
 
 **Build it once; own it for good.**
 
