@@ -111,7 +111,7 @@ The workstation build — rack-ready for on-prem and the data center. 384 GB of 
 - **AMD EPYC 9124** (ASRock Rack TURIN2D24G-2L+) · 384 GB DDR5 ECC · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU, over MCIO · BMC
 - **3× 2,000 W** CRPS
-- **5U rack chassis** — off the shelf, no CNC work
+- **5U rack chassis**
 
 **[Build the 4× 6000 →](4x-6000/README.md)**
 
