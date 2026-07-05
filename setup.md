@@ -32,6 +32,8 @@ Save, reboot, and confirm stability.
 
 ## GPU testing
 
+<img src="media/gpu-testing.webp" alt="nvtop showing every GPU enumerated, next to the 8× build">
+
 Verify the hardware before you rely on it.
 
 - **Fast hardware check:** boot **WinPE from USB** to confirm all cards enumerate, or

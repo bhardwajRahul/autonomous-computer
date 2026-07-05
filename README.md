@@ -142,6 +142,9 @@ We open-source the whole stack — the hardware and the software:
 ## Software
 
 1. **[BIOS tuning and GPU testing](setup.md)** — multi-GPU BIOS settings, NVIDIA drivers, and confirming every GPU is detected, linked at full PCIe width, and stable under load.
+
+   <a href="setup.md"><img src="media/gpu-testing.webp" alt="nvtop showing every GPU enumerated, next to the 8× build"></a>
+
 2. **[Run Grid](https://github.com/autonomous-ai/autonomous-grid)** — Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model, on your local network or remotely.
 
    ```bash
