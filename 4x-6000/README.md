@@ -1,14 +1,14 @@
-# 4× NVIDIA RTX PRO 6000 — the Server build
+# 4× NVIDIA RTX PRO 6000
 
-<div align="center"><a href="../README.md">← All builds</a></div>
+<img src="photos/gallery/hero-rack.jpg" alt="The 4× 6000 build racked — 5U chassis in the server rack">
 
-<img width="1637" height="646" alt="The 4× build — 5U chassis with 4× RTX PRO 6000 Blackwell" src="https://github.com/user-attachments/assets/472e8c4e-d263-4722-87ee-be61cf65fffb" />
+The server build — rack-ready for on-prem and the data center: four RTX PRO 6000 Blackwell GPUs on an AMD EPYC platform in a 5U chassis. 384 GB of VRAM: fine-tune and serve the biggest open models to a whole team.
 
-Four RTX PRO 6000 Blackwell GPUs on an AMD EPYC platform in an off-the-shelf 5U chassis — no CNC work required. The workstation-class middle option: 384 GB of VRAM for fine-tuning and serving large models to a whole team.
-
-| GPUs | VRAM | Platform | Memory | Power |
-|:---|:---|:---|:---|:---|
-| 4× NVIDIA RTX PRO 6000 Blackwell | 384 GB | AMD EPYC 9124 on ASRock Rack TURIN2D24G-2L+ | 8× 48 GB DDR5 ECC RDIMM (384 GB) | 3× 2000 W CRPS |
+- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB VRAM (96 GB per card)
+- **AMD EPYC 9124** (ASRock Rack TURIN2D24G-2L+) · 384 GB DDR5 ECC · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU, over MCIO · BMC
+- **3× 2,000 W** CRPS
+- **5U rack chassis**
 
 ## Build it
 
@@ -17,6 +17,18 @@ Four RTX PRO 6000 Blackwell GPUs on an AMD EPYC platform in an off-the-shelf 5U 
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md).
 4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md).
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
+
+<table>
+<tr>
+<td width="50%"><img src="photos/gallery/gpu-install.jpg" alt="Installing the RTX PRO 6000s"></td>
+<td width="50%"><img src="photos/gallery/gpu-row.jpg" alt="Four blower GPUs over the airflow modules"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/interior.jpg" alt="Full chassis interior — GPUs, fan wall, dual-SP5 board"></td>
+<td width="50%"><img src="photos/gallery/mcio-risers.jpg" alt="MCIO riser boards before the GPUs go in"></td>
+</tr>
+</table>
 
 ## BIOS notes for this board
 
@@ -32,7 +44,21 @@ Above 4G Decoding is typically enabled by default on this platform — verify it
 
 ## Testing
 
-All four cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+Make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+
+## Serve your models
+
+The rig runs, now put it to work. The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI: it pools your machines into one local AI network. Or run any local AI engine — vLLM, Ollama, llama.cpp.
+
+```bash
+curl -fsSL https://grid.autonomous.ai/install.sh | bash
+```
+
+<img width="2200" height="1452" alt="Grid — your machines pooled into one local AI network" src="https://github.com/user-attachments/assets/0ad98393-248a-40bd-9877-e6f0847c7b0e" />
+
+## The finished machine
+
+<img src="photos/gallery/power-detail.jpg" alt="GPU power cabling detail on the 4× 6000">
 
 ## Discussion
 
