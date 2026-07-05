@@ -136,7 +136,7 @@ The server build — rack-ready for on-prem and the data center. 384 GB of VRAM:
 
 <img width="2560" height="1441" alt="gpu-testing" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
-2. **Serve your models** — the rig runs, now put it to work. The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), our open-source local AI orchestrator: one command, and your machines sit behind one OpenAI-compatible endpoint. Or run any local AI engine — vLLM, Ollama, llama.cpp.
+2. **Serve your models** — the rig runs, now put it to work. The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), our open-source orchestrator for local AI: it pools your machines into one local AI network. Or run any local AI engine — vLLM, Ollama, llama.cpp.
 
    ```bash
    curl -fsSL https://grid.autonomous.ai/install.sh | bash
