@@ -17,7 +17,7 @@ The Personal AI Computer is that machine. The models are good, the GPUs are affo
 Open software lets you run and shape your AI; open hardware lets you build, repair, and improve the machine it runs on. With both in your hands — the code, the CAD, the BOM, the BIOS settings — you can build the whole thing end to end. So we open-source both:
 
 - **Open Source Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
-- **Open Source Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
+- **Open Source Software — your choice.** The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), our open-source local AI orchestrator — but any local AI engine works: vLLM, Ollama, llama.cpp.
 
 ## 2× NVIDIA RTX 5090
 
@@ -136,7 +136,7 @@ The workstation build — rack-ready for on-prem and the data center. 384 GB of 
 
 <img width="2560" height="1441" alt="gpu-testing" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
-2. **Serve your models** — the rig runs, now put it to work. Install any open-source local AI engine — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), ours: it pools your machines behind one OpenAI-compatible endpoint.
+2. **Serve your models** — the rig runs, now put it to work. The easiest way is [Grid](https://github.com/autonomous-ai/autonomous-grid), our open-source local AI orchestrator: one command, and your machines sit behind one OpenAI-compatible endpoint. Or run any local AI engine — vLLM, Ollama, llama.cpp.
 
    ```bash
    curl -fsSL https://grid.autonomous.ai/install.sh | bash
