@@ -1,3 +1,5 @@
+# Build your own Personal AI Computer
+
 https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 
 ## The future of AI is local
