@@ -4,9 +4,9 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 **The future of AI is local.** Three reasons:
 
-1. **No one can switch you off.** In June 2026 the US government [took Fable 5 offline](https://www.anthropic.com/news/fable-mythos-access) for most of a month and [gated GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Weights on your own disk can't be revoked.
-2. **Your edge stays yours.** Every prompt you send a frontier API carries your product, your process, your edge. [Karp said it](https://www.cnbc.com/video/2026/07/01/palantir-ceo-alex-karp-says-something-has-gone-completely-wrong-with-how-ai-is-sold.html): own the means of production.
-3. **It's 20–30× cheaper.** The workload that costs [~$105K/month on GPT-5.5 Pro runs for ~$3–5K on open weights](https://www.benzinga.com/markets/tech/26/06/53048494/chamath-palihapitiya-says-companies-are-overspending-on-ai-as-cheaper-models-rapidly-close-the-gap-burning-through-massive-budgets). On your own machine: electricity.
+1. **No one can switch you off.** In June 2026 the US government took Fable 5 offline for most of a month and gated GPT-5.6 behind an approved-partner list. Weights on your own disk can't be revoked.
+2. **Your edge stays yours.** Every prompt you send a frontier API carries your product, your process, your edge. Own the means of production.
+3. **It's 20–30× cheaper.** A workload that costs ~$105K/month on a frontier API runs for ~$3–5K on open weights. On your own machine: electricity.
 
 That's why we open-sourced the whole stack:
 
