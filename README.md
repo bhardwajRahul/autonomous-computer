@@ -1,5 +1,7 @@
 # Build your own Personal AI Computer
 
+https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
+
 **The future of AI is local.** Three reasons:
 
 1. **No one can switch you off.** In June 2026 the US government [took Fable 5 offline](https://www.anthropic.com/news/fable-mythos-access) for most of a month and [gated GPT-5.6 behind an approved-partner list](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/). Weights on your own disk can't be revoked.
@@ -12,8 +14,6 @@ That's why we open-sourced the whole stack:
 - **Software — [Grid](https://github.com/autonomous-ai/autonomous-grid).** Pools your machines behind one OpenAI-compatible endpoint and routes each request to the right model.
 
 **Build it once; own it for good.**
-
-https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 ## Quick start
 
