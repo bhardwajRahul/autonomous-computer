@@ -55,11 +55,11 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 - **AMD Ryzen Threadripper Pro** · 96 GB RAM · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU · 2× 10 GbE · BMC
 - **2,750 W draw** · 4,000 W PSU
-- **15.5″ × 15.5″ × 16″** · 66 lb · dual-chamber airflow — intake below, GPUs above
+- **12.5″ × 12.5″ × 16″** · 66 lb
 
 **[Build the 4× 5090 →](4x-5090/README.md)**
 
-<a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — airflow through the dual-chamber housing"></a>
+<a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — four RTX 5090s in the cube housing"></a>
 
 <table>
 <tr>

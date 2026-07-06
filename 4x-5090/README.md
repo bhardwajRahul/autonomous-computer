@@ -1,18 +1,25 @@
 # 4× NVIDIA RTX 5090
 
-<img src="photos/gallery/hero.webp" alt="The 4× 5090 build — airflow through the dual-chamber housing">
+<img src="photos/gallery/hero.webp" alt="The 4× 5090 build — four RTX 5090s in the cube housing">
 
-The team build: four RTX 5090s in a dual-chamber desktop cube — fans and PSUs breathe below, GPUs live above. Built for larger open models like Kimi, MiniMax, and GLM. No API bills. Low latency. Private data.
+The team build: four RTX 5090s in the same desk-sized cube as the 2×, on an AMD Ryzen Threadripper PRO platform. Built for larger open models like Kimi, MiniMax, and GLM. No API bills. Low latency. Private data.
 
 - **4× NVIDIA RTX 5090** — 128 GB VRAM · 7,168 GB/s · 838 FP32 TFLOPS
-- **AMD Ryzen Threadripper Pro** · 96 GB RAM · 1 TB NVMe
+- **AMD Ryzen Threadripper PRO** · 96 GB RAM · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU · 2× 10 GbE · BMC
 - **2,750 W draw** · 4,000 W PSU
-- **15.5″ × 15.5″ × 16″** · 66 lb
+- **12.5″ × 12.5″ × 16″** · 66 lb
 
-**The full build guide — bill of materials, housing files, photo-by-photo assembly — is in progress.** The photos below are from our build. Want it sooner? [Open an issue](https://github.com/autonomous-ai/autonomous-computer/issues) and tell us.
+> **Draft guide** — component photos are representative and a few specs are still being confirmed; the real build photos, the board manual, and a testing screenshot are landing soon.
 
-## The build
+## Build it
+
+1. **Parts** — the [bill of materials](bom/bom.md).
+2. **Housing** — the **same cube as the [2× build](../2x-5090/README.md)**: the [STL files](../2x-5090/stl-models) and the [STEP files](../2x-5090/step_models).
+3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
+4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
+5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
 <table>
 <tr>
@@ -25,7 +32,21 @@ The team build: four RTX 5090s in a dual-chamber desktop cube — fans and PSUs 
 </tr>
 </table>
 
-<img src="photos/gallery/finished.webp" alt="The finished 4× 5090">
+## BIOS notes for this board
+
+The 4× runs on an AMD Ryzen Threadripper PRO (WRX90) board. The settings that matter (the general list is in [the setup guide](../setup.md)):
+
+```
+Enable Above 4G Decoding
+Enable Re-size BAR support
+Set every GPU slot to PCIe Gen 5 (with bifurcation as the board requires)
+```
+
+Exact menu paths depend on the motherboard — the board model and manual are being finalized.
+
+## Testing
+
+Make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing). A verification screenshot from this build is coming.
 
 ## Serve your models
 
@@ -37,9 +58,13 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 <img width="2200" height="1452" alt="Grid — your machines pooled into one local AI network" src="https://github.com/user-attachments/assets/0ad98393-248a-40bd-9877-e6f0847c7b0e" />
 
+## The finished machine
+
+<img src="photos/gallery/finished.webp" alt="The finished 4× 5090">
+
 ## Other builds
 
-The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 6000](../4x-6000/README.md) (384 GB VRAM), and the [8× 5090](../8x-5090/README.md) (on-prem scale) are complete guides today.
+The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 6000](../4x-6000/README.md) (384 GB VRAM), and the [8× 5090](../8x-5090/README.md) (on-prem scale) round out the family.
 
 ## License
 
