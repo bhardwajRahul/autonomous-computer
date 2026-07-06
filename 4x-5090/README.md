@@ -14,6 +14,8 @@ The team build: four RTX 5090s in a dual-chamber desktop cube — fans and PSUs 
 
 ## The build
 
+<img src="photos/gallery/gpu-cards.webp" alt="The four MSI RTX 5090s, ready to mount">
+
 <table>
 <tr>
 <td width="50%"><img src="photos/gallery/fan-chassis.webp" alt="Motherboard on the fan chassis"></td>

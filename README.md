@@ -107,7 +107,7 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 
 The server build — rack-ready for on-prem and the data center. 384 GB of VRAM: fine-tune and serve the biggest open models.
 
-- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB VRAM (96 GB per card)
+- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB GDDR7 ECC · 7,168 GB/s (96 GB per card)
 - **AMD EPYC 9124** (ASRock Rack TURIN2D24G-2L+) · 384 GB DDR5 ECC · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU, over MCIO · BMC
 - **3× 2,000 W** CRPS
@@ -120,7 +120,7 @@ The server build — rack-ready for on-prem and the data center. 384 GB of VRAM:
 <table>
 <tr>
 <td width="50%"><img src="4x-6000/photos/gallery/gpu-install.jpg" alt="Installing the RTX PRO 6000s"></td>
-<td width="50%"><img src="4x-6000/photos/gallery/gpu-row.jpg" alt="Four blower GPUs over the airflow modules"></td>
+<td width="50%"><img src="4x-6000/photos/gallery/gpu-row.jpg" alt="Four flow-through RTX PRO 6000s over the airflow modules"></td>
 </tr>
 <tr>
 <td width="50%"><img src="4x-6000/photos/gallery/interior.jpg" alt="Full chassis interior — GPUs, fan wall, dual-SP5 board"></td>
