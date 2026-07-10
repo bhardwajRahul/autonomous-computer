@@ -30,7 +30,7 @@ The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform.
 </tr>
 </table>
 
-## BIOS notes for this board
+## BIOS notes and testing
 
 The two settings that matter on the W790 (the general list is in [the setup guide](../setup.md)):
 
@@ -41,9 +41,7 @@ Advanced -> PCI Subsystems Settings -> Enable Re-size BAR support
 
 Board references: [motherboard manual](docs/um-motherboard.pdf) · [BIOS manual](docs/um-bios.pdf)
 
-## Testing
-
-Make sure both cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+Then make sure both cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <p align="center">
     <img src="photos/2gpu/testing/nvidia-smi.png" width="700" alt="nvidia-smi with both RTX 5090s detected">

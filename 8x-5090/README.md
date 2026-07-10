@@ -30,7 +30,7 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 </tr>
 </table>
 
-## BIOS notes for this board
+## BIOS notes and testing
 
 The GENOA2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (the general list is in [the setup guide](../setup.md)):
 
@@ -44,9 +44,7 @@ Above 4G Decoding is typically enabled by default on this platform — verify it
 
 Board references: [motherboard manual](docs/um-motherboard.pdf) · [BMC manual](docs/um-bmc.pdf)
 
-## Testing
-
-Make sure all eight cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+Then make sure all eight cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <table>
     <tr>

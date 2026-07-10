@@ -14,11 +14,12 @@ The team build: four RTX 5090s in a cube housing on an AMD Ryzen Threadripper PR
 
 ## Build it
 
-1. **Parts** — the [bill of materials](bom/bom.md), with a [photo of every part](docs/prepare-ee.md); lay them all out and check them off.
+1. **Parts** — the [bill of materials](bom/bom.md).
 2. **Housing** — the [STL files](stl-models) and the [STEP files](step_models).
-3. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
-4. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
-5. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
+3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
+4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
+5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
 <table>
 <tr>
