@@ -23,8 +23,12 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 
 <table>
 <tr>
-<td width="56%" valign="top"><img src="photos/gallery/dual-socket-board.webp" alt="The dual-EPYC (Genoa) board — two SP5 sockets and twenty-four DIMM slots"><br><img src="photos/gallery/interior-topdown.webp" alt="Top-down — the PCIe adapter boards, the center fan wall, and the MCIO cabling"></td>
-<td width="44%" valign="top"><img src="photos/gallery/card-install.webp" alt="Seating an RTX 5090 into the chassis"><br><img src="photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
+<td width="50%"><img src="photos/gallery/dual-socket-board.webp" alt="The dual-EPYC (Genoa) board — two SP5 sockets and twenty-four DIMM slots"></td>
+<td width="50%"><img src="photos/gallery/card-install.webp" alt="Seating an RTX 5090 into the chassis"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/interior-topdown.webp" alt="Top-down — the PCIe adapter boards, the center fan wall, and the MCIO cabling"></td>
+<td width="50%"><img src="photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
 </tr>
 </table>
 
