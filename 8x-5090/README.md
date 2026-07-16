@@ -21,23 +21,6 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 
 <table>
 <tr>
-<td width="50%"><img src="photos/gallery/parts-layout.webp" alt="Every part laid out before assembly"></td>
-<td width="50%"><img src="photos/gallery/mcio-adapter.webp" alt="Placing an MCIO adapter"></td>
-</tr>
-<tr>
-<td width="50%"><img src="photos/gallery/pcie-adapters.webp" alt="Cabling the PCIe adapters"></td>
-<td width="50%"><img src="photos/gallery/gpu-install.webp" alt="Installing the GPUs"></td>
-</tr>
-</table>
-
-## Inside the machine
-
-Side panel off: eight blower-style 5090s in two columns, the dual-EPYC board between them, and the center fan wall pulling air across all eight.
-
-<img src="photos/gallery/open-chassis.webp" alt="The 8× 5090 with the side panel off — two GPU columns and the center fan wall">
-
-<table>
-<tr>
 <td width="50%"><img src="photos/gallery/dual-socket-board.webp" alt="The dual-EPYC (Genoa) board — two SP5 sockets and twenty-four DIMM slots"></td>
 <td width="50%"><img src="photos/gallery/card-install.webp" alt="Seating an RTX 5090 into the chassis"></td>
 </tr>
@@ -46,10 +29,6 @@ Side panel off: eight blower-style 5090s in two columns, the dual-EPYC board bet
 <td width="50%"><img src="photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
 </tr>
 </table>
-
-<a href="photos/8-GPU-hover.mp4"><img src="photos/gallery/hover-poster.webp" alt="Watch the 8-GPU hover video"></a>
-
-▶ [Watch the hover video](photos/8-GPU-hover.mp4) (35s)
 
 ## BIOS notes and testing
 
@@ -90,7 +69,7 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## The finished machine
 
-<img src="photos/gallery/finished.webp" alt="The finished 8× 5090 on a desk">
+<img src="photos/gallery/open-chassis.webp" alt="The finished 8× 5090 — side panel off, both GPU columns and the center fan wall">
 
 ## Other builds
 
