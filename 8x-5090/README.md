@@ -30,6 +30,27 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 </tr>
 </table>
 
+## Inside the machine
+
+Side panel off: eight blower-style 5090s in two columns, the dual-EPYC board between them, and the center fan wall pulling air across all eight.
+
+<img src="photos/gallery/open-chassis.webp" alt="The 8× 5090 with the side panel off — two GPU columns and the center fan wall">
+
+<table>
+<tr>
+<td width="50%"><img src="photos/gallery/dual-socket-board.webp" alt="The dual-EPYC (Genoa) board — two SP5 sockets and twenty-four DIMM slots"></td>
+<td width="50%"><img src="photos/gallery/card-install.webp" alt="Seating an RTX 5090 into the chassis"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/interior-topdown.webp" alt="Top-down — the PCIe adapter boards, the center fan wall, and the MCIO cabling"></td>
+<td width="50%"><img src="photos/gallery/psu-rear.webp" alt="The rear — 2,000 W CRPS power modules"></td>
+</tr>
+</table>
+
+<a href="photos/8-GPU-hover.mp4"><img src="photos/gallery/hover-poster.webp" alt="Watch the 8-GPU hover video"></a>
+
+▶ [Watch the hover video](photos/8-GPU-hover.mp4) (35s)
+
 ## BIOS notes and testing
 
 The GENOA2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (the general list is in [the setup guide](../setup.md)):
