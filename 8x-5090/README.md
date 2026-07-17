@@ -1,8 +1,5 @@
 # 8× NVIDIA RTX 5090
 
-<a href="photos/8-GPU-hover.mp4"><img src="photos/gallery/hover-poster.webp" alt="8× 5090 build — hover video"></a>
-
-*▶ [Play the 35-second hover](photos/8-GPU-hover.mp4)*
 
 
 https://github.com/user-attachments/assets/0b51e9fc-8865-4e1a-966e-9ce01fe8d8de
