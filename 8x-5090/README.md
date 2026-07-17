@@ -4,6 +4,11 @@
 
 *▶ [Play the 35-second hover](photos/8-GPU-hover.mp4)*
 
+
+https://github.com/user-attachments/assets/0b51e9fc-8865-4e1a-966e-9ce01fe8d8de
+
+
+
 The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a CNC-milled, anodized aluminum housing. A team's AI on your own floor, where your IP and data never leave the building.
 
 - **8× NVIDIA RTX 5090** — 256 GB VRAM · 14,336 GB/s · 1,676 FP32 TFLOPS
